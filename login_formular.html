@@ -3,18 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <title>Login</title>
-    <style type="text/css">
-        body
-        {
+        <style type="text/css">
+        body {
             margin: 0px;
             background-color: #ffffff;
         }
-        div.head
-        {
+
+        div.head {
             color: #000000;
             font-family: Verdana;
             font-size: 10px;
-            position:absolute;
+            position: absolute;
             left: 50%;
             top: 50%;
             width: 89px;
@@ -28,9 +27,9 @@
 
 <body>
 <div class="head">
-    <form method="POST" action="login.php"> // "login.php" ist jetzt mal nur so als Beispiel benannt, da muss der richtige Name der php Datei hin :)
-        E-Mail Adresse: <input name="username"><br>
-        Passwort: <input name="passwort" type=password><br>
+    <form method="post" action="login.php" enctype="multipart/form-data">
+        E-Mail Adresse: <input name="e-mail" type="email"><br/>
+        Passwort: <input name="passwort" type=password><br/>
         <input type=submit name=submit value="Einloggen">
     </form>
 </div>
