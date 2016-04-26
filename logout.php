@@ -2,5 +2,5 @@
 session_start();
 session_destroy();
 
-header("location: login-formularn.html");
+header("location: login_formular.html");
 ?>
