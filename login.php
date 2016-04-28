@@ -6,7 +6,17 @@
  * Time: 22:18
  */
 # Datenbank aus der Datei MySQL_access.php
-#begin PIU Code
-require_once "CRUD/MySQL_access.php";
-$pdo = new PDO($dsn, $dbuser, $dbpass);
+#begin piu code
 
+require_once "CRUD/MySQL_tst_connection.php";
+
+#$pdo = new PDO($dsn, $dbuser, $dbpass);
+
+$password = $_GET ['password'];
+echo $password;
+$email = $_GET ['email'];
+echo $email;
+
+
+
+#end piu code

@@ -27,10 +27,10 @@
 
 <body>
 <div class="head">
-    <form method="post" action="login.php" enctype="multipart/form-data">
-        E-Mail Adresse: <input name="e-mail" type="email"><br/>
-        Passwort: <input name="passwort" type=password><br/>
-        <input type=submit name=submit value="Einloggen">
+    <form  action="login.php" method="get"> #enctype="multipart/form-data"
+        E-Mail Adresse: <input type="email" name="email"/><br/>
+        Passwort: <input type="password" name="password"/><br/>
+        <input type=submit name=submit value="Einloggen"/>
     </form>
 </div>
 </body>
