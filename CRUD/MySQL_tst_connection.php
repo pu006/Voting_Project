@@ -15,4 +15,3 @@ try {
     echo("Fehler bei Aufbau der Datenbantverbindung.");
 }
 #/end PIU Code
-?>
