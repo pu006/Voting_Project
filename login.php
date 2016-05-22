@@ -47,7 +47,7 @@ $userPasFromDB = $result->Passwort; #Passwort aus DB-Satz  in variable $userPasF
 if ($userPasFromDB == $userPasFromFormular) {   #Passwoerter vergleichen
     
 } else {
-
+    echo '<meta http-equiv=refresh content="0; url=login_form_wrong_password.html">';
 }
 
 
