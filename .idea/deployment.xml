@@ -5,7 +5,7 @@
       <paths name="mars">
         <serverdata>
           <mappings>
-            <mapping deploy="/home/sc039/public_html/Voting_Project" local="$PROJECT_DIR$" web="/Voting_Project" />
+            <mapping deploy="/home/pu006/public_html/Voting_Project" local="$PROJECT_DIR$" web="/Voting_Project" />
           </mappings>
         </serverdata>
       </paths>
