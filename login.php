@@ -6,7 +6,7 @@
  * Time: 22:18
  */
 
-#begin piu code
+#begin piu code hallo
 # Datenbankzugang aus der Datei MySQL_access.php
 require_once "CRUD/MySQL_access.php";
 $pdo = new PDO($dsn, $dbuser, $dbpass);
