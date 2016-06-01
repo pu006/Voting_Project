@@ -9,7 +9,7 @@
 #begin piu code
 
 # Datenbankzugang aus der Datei MySQL_access.php
-require_once "CRUD/MySQL_access.php";
+require_once "MySQL_access.php";
 $pdo = new PDO($dsn, $dbuser, $dbpass);
 
 #session_start();

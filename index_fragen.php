@@ -5,7 +5,7 @@
  */
 
 
-require_once "CRUD/MySQL_access.php";
+require_once "MySQL_access.php";
 $pdo = new PDO($dsn, $dbuser, $dbpass);
 
 
